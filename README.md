@@ -25,7 +25,7 @@ once skim is installed, goto Skim -> Preferences -> Sync and check the box for
 "Check for file Changes"
 
 ### Command line ###
-Run `npm install` to download appropriate packages.\s\s
+Run `npm install` to download appropriate packages. \s\s
 Run `npm start` to run watch task using wr and compile pdf using pdflatex
 
 That's it and enjoy your latex build!
