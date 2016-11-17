@@ -26,6 +26,10 @@ once skim is installed, goto Skim -> Preferences -> Sync and check the box for
 
 ### Command line ###
 Run `npm install` to download appropriate packages. \s\s
+run `pdftex main.tex` to bypass any configuration issues
 Run `npm start` to run watch task using wr and compile pdf using pdflatex
+
+Anytime you come back to this project and want to start editing again, just run
+`npm start`
 
 That's it and enjoy your latex build!
