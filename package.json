@@ -4,7 +4,7 @@
   "description": "A latex skeleton and build, for seamlessly building out documentation time and time again. ",
   "main": "index.js",
   "scripts": {
-    "start": "wr 'pdflatex main.tex'",
+    "start": "wr 'pdflatex main.tex' & open -a Skim main.pdf",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch-pdf": "wr -h"
   },
