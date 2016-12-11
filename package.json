@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/CharlieGreenman/latex-documentation#readme",
   "devDependencies": {
+    "command": "0.0.5",
     "wr": "^1.3.1"
   }
 }
