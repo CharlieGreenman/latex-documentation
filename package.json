@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "initial": "pdftex main.tex",
-    "start": "wr 'pdflatex main.tex' & open -a Skim main.pdf",
+    "start": "node watcher.js & open -a Skim main.pdf",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch-pdf": "wr -h"
   },
@@ -23,10 +23,7 @@
   },
   "homepage": "https://github.com/CharlieGreenman/latex-documentation#readme",
   "devDependencies": {
-    "command": "0.0.5",
-    "wr": "^1.3.1"
-  },
-  "dependencies": {
-    "chokidar": "^2.0.0"
+    "chokidar": "^2.0.0",
+    "shelljs": "^0.7.8"
   }
 }
