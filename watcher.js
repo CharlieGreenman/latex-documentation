@@ -1,5 +1,6 @@
-var fs = require('fs');
+var chokidar = require('chokidar');
 
-fs.watch('main.tex', function (curr, prev) {
-	console.log('file written');
+// One-liner for current directory, ignores .dotfiles
+chokidar.watch('*.tex').on('all', (event, path) => {
+  console.log(event, path);
 });
